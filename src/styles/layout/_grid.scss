@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $spacing-medium;
+    padding: $spacing-large;
+}
+
+.menu-item {
+    background-color: $background-color;
+    padding: $spacing-medium;
+    border-radius: 8px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+%button-styles {
+    padding: $spacing-small $spacing-medium;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-primary {
+    @extend %button-styles;
+    background-color: $primary-color;
+    color: white;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.button-secondary {
+    @extend %button-styles;
+    background-color: $secondary-color;
+    color: white;
+
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+    }
+}

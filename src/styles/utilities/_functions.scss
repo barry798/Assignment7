@@ -1,0 +1,7 @@
+@function calculate-font-size($size) {
+    @return $size * 1.2;
+}
+
+h1 {
+    font-size: calculate-font-size(20px);
+}

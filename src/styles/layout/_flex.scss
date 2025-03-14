@@ -1,0 +1,19 @@
+.navbar {
+    @include flex-center(row);
+    background-color: $primary-color;
+    padding: $spacing-medium;
+
+    .nav-item {
+        margin: 0 $spacing-small;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    @include flex-center(column);
+    background-color: $text-color;
+    color: white;
+    padding: $spacing-medium;
+}
